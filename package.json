@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/loonskai/nodejs-speech-to-text#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "microsoft-cognitiveservices-speech-sdk": "^1.16.0"
   },
   "devDependencies": {
