@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-speech-to-text",
+  "version": "1.0.0",
+  "description": "Node.js CLI tool for Speech-to-Text",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loonskai/nodejs-speech-to-text.git"
+  },
+  "author": "Siarhei Lunski <loonskai@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loonskai/nodejs-speech-to-text/issues"
+  },
+  "homepage": "https://github.com/loonskai/nodejs-speech-to-text#readme",
+  "dependencies": {
+    "microsoft-cognitiveservices-speech-sdk": "^1.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.22.1",
+    "@typescript-eslint/parser": "^4.22.1",
+    "eslint": "^7.25.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}
